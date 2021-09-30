@@ -174,13 +174,11 @@
     return 15;
   };
 
-  window.addEventListener("load", function () {
     console.log("loaded");
     const heroParticles = new Background("hero-particles");
     const footerParticles = new Background("footer-particles");
     heroParticles.start();
     footerParticles.start();
-  });
 
   window.requestAnimFrame = (function () {
     return (
