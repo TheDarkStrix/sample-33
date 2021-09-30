@@ -32,9 +32,8 @@
 
   console.log(body.classList.contains("has-animations"));
   
-  if (body.classList.contains("has-animations")) {
     window.addEventListener("load", revealAnimations);
-  }
+  
 
   // Particle animation
   let Bubble = function (parentNode) {
